@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/coronavirus.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.wrapper {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wrapper input {
+  padding: 0.5rem;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+}
+
+.wrapper input[type="date"] {
+  padding: 0.35rem 0.5rem;
+}
+
+.wrapper input[type="button"] {
+  color: white;
+  background-color: rgb(65, 105, 225, 0.8);
+}
+
+.wrapper input[type="button"]:hover {
+  cursor: pointer;
+  background-color: rgb(65, 105, 225, 1);
+}
+
+.container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cases {
+  text-align: center;
+  padding: 1rem 3rem;
+  background-color: royalblue;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.cases p {
+  margin-bottom: 1rem;
+}
+
+.cases p:nth-last-of-type(1) {
+  margin-bottom: 0;
+}
